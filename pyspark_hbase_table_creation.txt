@@ -1,0 +1,3 @@
+create_namespace 'traf_data'
+
+create 'traf_data:traf_tbl', {NAME => 'traf_dtls', VERSIONS => 5},{NAME => 'other_info', VERSIONS => 5}	

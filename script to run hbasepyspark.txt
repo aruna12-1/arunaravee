@@ -1,0 +1,1 @@
+spark2-submit --master local --conf spark.ui.port=0 --packages com.hortonworks:shc-core:1.1.1-2.1-s_2.11 --repositories http://repo.hortonworks.com/content/groups/public/ /home/arunasai14/pyspark-hbase.py
